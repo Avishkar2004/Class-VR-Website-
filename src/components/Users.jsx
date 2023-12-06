@@ -10,7 +10,7 @@ const Users = () => {
       className="flex flex-col justify-center items-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start"
       // this is for animation
       data-aos="fade-down"
-      data-aos-delay="900"
+      data-aos-delay="500"
     >
       <div className="flex -space-x-2">
         <div className="w-12 h-12 rounded-full">
@@ -27,8 +27,8 @@ const Users = () => {
         </div>
       </div>
       <div className="flex items-center space-x-2 font-secondary font-medium ">
-        <BsFillCircleFill className="text-xs text-green-500 animate-pulse " />
-        <div>400k people online</div>
+        <BsFillCircleFill className="text-xs text-blue-700 animate-pulse " />
+        <div>400 student in one batch</div>
       </div>
     </div>
   );

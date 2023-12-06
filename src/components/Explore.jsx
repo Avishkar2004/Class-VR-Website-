@@ -9,20 +9,21 @@ const Explore = () => {
       <div className="container mx-auto h-full">
         <div className="h-full bg-explore bg-no-repeat bg-cover p-14 flex flex-col items-start justify-center">
           <h3
-            className="text-3xl font-semibold mb-8"
+            className="text-3xl font-semibold mb-8 text-black"
             data-aos="fade-right"
-            data-aos-offset="1100"
+            data-aos-offset="600"
           >
-            Explore product in new way
+            Explore class in new way
           </h3>
           <p
-            className="max-w-xs mb-12"
+            className="max-w-xs mb-12 text-black font-secondary"
             data-aos="fade-right"
-            data-aos-offset="1300"
+            data-aos-offset="500"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            excepturi deleniti earum commodi sunt, porro, libero soluta
-            praesentium aperiam repudiandae maxime.
+            Classes are dynamic spaces of learning and growth. They bring
+            together diverse individuals, fostering collaboration,
+            knowledge-sharing, and personal development. Through engaging
+            discussions, interactive activities, and supportive interactions.
           </p>
         </div>
         {/* form */}
@@ -32,12 +33,15 @@ const Explore = () => {
           dat-aos-offset="200"
         >
           <input
-            className="bg-gradient-to-t from-[#341D38] to-[#271223] h-12
+            className="bg-gradient-to-t from-[#341D38] to-[#000000] h-12
         px-4 outline-none rounded-md"
             type="text"
-            placeholder="Youe email"
+            placeholder="Your email"
           />
-          <button className="btn">Start</button>
+          <button className="btn"
+          data-aos="fade-up"
+          dat-aos-offset="200"
+          >Start Now</button>
         </form>
       </div>
     </section>

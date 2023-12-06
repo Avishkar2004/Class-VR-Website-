@@ -15,14 +15,19 @@ const Experience = () => {
               data-aos="fade-down"
               data-aos-offset="400"
             >
-              <img src={Img1} alt="" />
+              <img className="rounded-xl" src={Img1} alt="" />
             </div>
+
             <div
               className="self-end"
               //this is from animation
               data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-delay="400"
+
+
             >
-              <img src={Img2} alt="" />
+              <img className="rounded-xl" src={Img2} alt="" />
             </div>
           </div>
           {/* text */}
@@ -32,16 +37,14 @@ const Experience = () => {
             data-aos="fade-left"
             data-aos-offset="400"
           >
-            <h2 className="text-3xl font-bold mb-6">
-              New Experience In Playing Games
+            <h2 className="text-3xl font-bold mb-6 text-black">
+              New Experience while learning
             </h2>
-            <p className="font-secondary mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Explicabo voluptatem sunt rem autem, expedita eos, dignissimos
-              quia ad atque ea molestias provident quas doloremque adipisci
-              laboriosam deleniti pariatur? Soluta, temporibus!
+            <p className="font-secondary mb-6 text-black">
+              I bought some shoes from a drug dealer. I don't know what he laced
+              them with, but I've been tripping all day!
             </p>
-            <button className="btn">Get it now</button>
+            <button className="btn">Enroll now</button>
           </div>
         </div>
       </div>
